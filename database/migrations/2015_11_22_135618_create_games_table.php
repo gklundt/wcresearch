@@ -3,7 +3,7 @@
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateGameSessionTable extends Migration
+class CreateGamesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -12,11 +12,9 @@ class CreateGameSessionTable extends Migration
      */
     public function up()
     {
-        Schema::create('game_session', function (Blueprint $table) {
+        Schema::create('games', function (Blueprint $table) {
             $table->increments('id');
             $table->timestamps();
-            $table->dateTime('game_session_start_datetime');
-            $table->dateTime('game_session_end_datetime');
         });
     }
 
@@ -27,6 +25,6 @@ class CreateGameSessionTable extends Migration
      */
     public function down()
     {
-        Schema::drop('game_session');
+        Schema::drop('games');
     }
 }

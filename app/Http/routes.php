@@ -15,6 +15,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::resource('gamedata','GameData');
-
 Route::resource('phpinfo','phpinfocontroller');
