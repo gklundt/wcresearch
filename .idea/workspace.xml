@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f56f14c7-cbd9-47a1-842a-f8c8d1782f07" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Event.php" afterPath="$PROJECT_DIR$/app/Event.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Game.php" afterPath="$PROJECT_DIR$/app/Game.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/GameController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/GameController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" afterPath="$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php" />
     </list>
     <ignored path="wcresearch.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,13 +28,24 @@
     <favorites_list name="wcresearch" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="post_game.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/post_game.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6213592">
+              <caret line="33" column="11" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="dummy://restClient/response176.txt" root0="SKIP_INSPECTION" />
+    <setting file="dummy://restClient/response182.txt" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -321,6 +328,106 @@
   <component name="RestClientSettings">
     <option name="REQUEST_HISTORY">
       <list>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1448827535000" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="laravel_session" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6Ik14WUdNN0NTZUFQbklSNkZhdHFwOGc9PSIsInZhbHVlIjoic2lwMG5heVdkY1JLZGRQOHhKSFNSekhNSGhSZTVITEw4b1l0XC9lTGdIT0tDM0RFaW9rNFdBSlI0c3lzT0VuVndmUVwvb1VxazMzUFJkZXZFSHlLRzk5Zz09IiwibWFjIjoiNmM5ZmE3MTc4ZjMzZTFkOTFhODgwMDViN2MwMThjNGQyZmEyYTY0MDIzNzU1MGY5ODljY2VmYTNiNDZiNDQ3ZiJ9" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1448827535000" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="XSRF-TOKEN" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6InJvWG8wYVhiNEErMFg0RWJcLzJCNUR3PT0iLCJ2YWx1ZSI6ImtjMTJ3R3J4UHkxd20rd2R0ckFuMEpvZkZQdW0wZEJ4SXQwQ0U4U3ZCeENHd1lEWHRncVRDRkRReWJUY0JQVUh1N3RZRWg2aThwd2N5SlU4RzlIbUlBPT0iLCJtYWMiOiJlMDNmNjk4NTI5MjliODU4YmM0Mjc2YThiZmJjMTNlY2Q4NjNhOGMyMWUwNzA2NDUzMjU4MDQzMmFhZjljNDk4In0%3D" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1448827847000" />
+                <option name="domain" value="violox.com" />
+                <option name="name" value="XSRF-TOKEN" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6Imk3cFc5bDRQSTRTZXhndllEbW84R0E9PSIsInZhbHVlIjoidklQWkRXVGQ2SmI4Z3FxTmViaWV1TG94dWZ6NnpJYjc0dzFDQzZzWnVXRVhPZjUzMGxLUytvNWE2ZHM2MGhVaVZKdDVFMWNtMThsWnh6UW9CcWV4dWc9PSIsIm1hYyI6Ijk0MjdlMTI4YWZiMzM5OWUwY2IwZWFiOGE5YjkzZmQ3NmQ3MWNkZGZkZDA2ZmFjMDM2OWM5ZThjY2JjMGRhODIifQ%3D%3D" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1448827847000" />
+                <option name="domain" value="violox.com" />
+                <option name="name" value="laravel_session" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6Ijg3Smd4NzRUQks0SDVGR0FRekhXVFE9PSIsInZhbHVlIjoiXC9DWENydFI2a0h3cEk0MUhMXC96TnhzdGhqdmNMWkZnNUxmTU5ncklMMFZWYUJ3MXhkczJLcGJxcXFZMDNKZVRkZm9lbXlFbEpWem96cEFhcGtlY2lsdz09IiwibWFjIjoiNDNmZTc3OTdjMmZkMDk4ZjA0ZDBiZjI0NzRhNDhjYWU2NTgxMGY4Y2FlZDhjODE4ZDNjOGM2ZDc3MTQ0ZjcwZSJ9" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://violox.com" />
+          <option name="urlPath" value="/game" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="[  {&quot;sessionId&quot; : &quot;g3e6f1f5e2898ffe61b650e319e527a4-2015.11.22-15.39.39&quot;   ,&quot;userId&quot; : &quot;f3e6f1f5e2898ffe61b650e319e527a4&quot;   ,&quot;events&quot; :   [     { &quot;eventName&quot; : &quot;SessionStart&quot;,&quot;attributes&quot; : { &quot;name&quot; : &quot;StartTime&quot;,&quot;value&quot; : &quot;0.0&quot; } }   ,{ &quot;eventName&quot; : &quot;Collision&quot;,&quot;attributes&quot; : { &quot;name&quot; : &quot;Cube119&quot;,&quot;value&quot; : &quot;13.481924&quot; } }   ,{ &quot;eventName&quot; : &quot;Collision&quot;,&quot;attributes&quot; : { &quot;name&quot; : &quot;Cube119&quot;,&quot;value&quot; : &quot;13.552299&quot; } }   ,{ &quot;eventName&quot; : &quot;Collision&quot;,&quot;attributes&quot; : { &quot;name&quot; : &quot;Cube119&quot;,&quot;value&quot; : &quot;13.552299&quot; } }   ,{ &quot;eventName&quot; : &quot;Collision&quot;,&quot;attributes&quot; : { &quot;name&quot; : &quot;Cube119&quot;,&quot;value&quot; : &quot;13.641773&quot; } }   ,{ &quot;eventName&quot; : &quot;Collision&quot;,&quot;attributes&quot; : { &quot;name&quot; : &quot;Cube119&quot;,&quot;value&quot; : &quot;13.641773&quot; } }   ,{ &quot;eventName&quot; : &quot;Collision&quot;,&quot;attributes&quot; : { &quot;name&quot; : &quot;Cube119&quot;,&quot;value&quot; : &quot;13.641773&quot; } }   ,{ &quot;eventName&quot; : &quot;Collision&quot;,&quot;attributes&quot; : { &quot;name&quot; : &quot;Floor6&quot;,&quot;value&quot; : &quot;13.641773&quot; } }   ,{ &quot;eventName&quot; : &quot;Collision&quot;,&quot;attributes&quot; : { &quot;name&quot; : &quot;Cube120&quot;,&quot;value&quot; : &quot;13.70808&quot; } }   ,{ &quot;eventName&quot; : &quot;Collision&quot;,&quot;attributes&quot; : { &quot;name&quot; : &quot;Cube120&quot;,&quot;value&quot; : &quot;13.70808&quot; } }   ,{ &quot;eventName&quot; : &quot;Collision&quot;,&quot;attributes&quot; : { &quot;name&quot; : &quot;Cube120&quot;,&quot;value&quot; : &quot;13.800197&quot; } }   ,{ &quot;eventName&quot; : &quot;Collision&quot;,&quot;attributes&quot; : { &quot;name&quot; : &quot;Cube120&quot;,&quot;value&quot; : &quot;13.800197&quot; } }   ,{ &quot;eventName&quot; : &quot;Collision&quot;,&quot;attributes&quot; : { &quot;name&quot; : &quot;Cube120&quot;,&quot;value&quot; : &quot;13.864681&quot; } }   ,{ &quot;eventName&quot; : &quot;Collision&quot;,&quot;attributes&quot; : { &quot;name&quot; : &quot;Cube120&quot;,&quot;value&quot; : &quot;13.864681&quot; } }   ,{ &quot;eventName&quot; : &quot;Collision&quot;,&quot;attributes&quot; : { &quot;name&quot; : &quot;Cube121&quot;,&quot;value&quot; : &quot;13.990599&quot; } }   ,{ &quot;eventName&quot; : &quot;Collision&quot;,&quot;attributes&quot; : { &quot;name&quot; : &quot;Ramp&quot;,&quot;value&quot; : &quot;29.66526&quot; } }   ,{ &quot;eventName&quot; : &quot;Collision&quot;,&quot;attributes&quot; : { &quot;name&quot; : &quot;Ramp&quot;,&quot;value&quot; : &quot;29.66526&quot; } }   ,{ &quot;eventName&quot; : &quot;Collision&quot;,&quot;attributes&quot; : { &quot;name&quot; : &quot;Ramp&quot;,&quot;value&quot; : &quot;29.704729&quot; } }   ,{ &quot;eventName&quot; : &quot;Collision&quot;,&quot;attributes&quot; : { &quot;name&quot; : &quot;Ramp&quot;,&quot;value&quot; : &quot;29.704729&quot; } }   ,{ &quot;eventName&quot; : &quot;Collision&quot;,&quot;attributes&quot; : { &quot;name&quot; : &quot;Floor4&quot;,&quot;value&quot; : &quot;36.455978&quot; } } ]    }  ]" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="biscuits">
+            <list>
+              <Biscuit>
+                <option name="date" value="1448827535000" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="laravel_session" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6Ik14WUdNN0NTZUFQbklSNkZhdHFwOGc9PSIsInZhbHVlIjoic2lwMG5heVdkY1JLZGRQOHhKSFNSekhNSGhSZTVITEw4b1l0XC9lTGdIT0tDM0RFaW9rNFdBSlI0c3lzT0VuVndmUVwvb1VxazMzUFJkZXZFSHlLRzk5Zz09IiwibWFjIjoiNmM5ZmE3MTc4ZjMzZTFkOTFhODgwMDViN2MwMThjNGQyZmEyYTY0MDIzNzU1MGY5ODljY2VmYTNiNDZiNDQ3ZiJ9" />
+              </Biscuit>
+              <Biscuit>
+                <option name="date" value="1448827535000" />
+                <option name="domain" value="localhost" />
+                <option name="name" value="XSRF-TOKEN" />
+                <option name="path" value="/" />
+                <option name="value" value="eyJpdiI6InJvWG8wYVhiNEErMFg0RWJcLzJCNUR3PT0iLCJ2YWx1ZSI6ImtjMTJ3R3J4UHkxd20rd2R0ckFuMEpvZkZQdW0wZEJ4SXQwQ0U4U3ZCeENHd1lEWHRncVRDRkRReWJUY0JQVUh1N3RZRWg2aThwd2N5SlU4RzlIbUlBPT0iLCJtYWMiOiJlMDNmNjk4NTI5MjliODU4YmM0Mjc2YThiZmJjMTNlY2Q4NjNhOGMyMWUwNzA2NDUzMjU4MDQzMmFhZjljNDk4In0%3D" />
+              </Biscuit>
+            </list>
+          </option>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://violox.com" />
+          <option name="urlPath" value="/game" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-Type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="[  {&quot;sessionId&quot; : &quot;f3e6f1f5e2898ffe61b650e319e527a4-2015.11.22-15.39.39&quot;   ,&quot;userId&quot; : &quot;f3e6f1f5e2898ffe61b650e319e527a4&quot;   ,&quot;events&quot; :   [     { &quot;eventName&quot; : &quot;SessionStart&quot;,&quot;attributes&quot; : { &quot;name&quot; : &quot;StartTime&quot;,&quot;value&quot; : &quot;0.0&quot; } }   ,{ &quot;eventName&quot; : &quot;Collision&quot;,&quot;attributes&quot; : { &quot;name&quot; : &quot;Cube119&quot;,&quot;value&quot; : &quot;13.481924&quot; } }   ,{ &quot;eventName&quot; : &quot;Collision&quot;,&quot;attributes&quot; : { &quot;name&quot; : &quot;Cube119&quot;,&quot;value&quot; : &quot;13.552299&quot; } }   ,{ &quot;eventName&quot; : &quot;Collision&quot;,&quot;attributes&quot; : { &quot;name&quot; : &quot;Cube119&quot;,&quot;value&quot; : &quot;13.552299&quot; } }   ,{ &quot;eventName&quot; : &quot;Collision&quot;,&quot;attributes&quot; : { &quot;name&quot; : &quot;Cube119&quot;,&quot;value&quot; : &quot;13.641773&quot; } }   ,{ &quot;eventName&quot; : &quot;Collision&quot;,&quot;attributes&quot; : { &quot;name&quot; : &quot;Cube119&quot;,&quot;value&quot; : &quot;13.641773&quot; } }   ,{ &quot;eventName&quot; : &quot;Collision&quot;,&quot;attributes&quot; : { &quot;name&quot; : &quot;Cube119&quot;,&quot;value&quot; : &quot;13.641773&quot; } }   ,{ &quot;eventName&quot; : &quot;Collision&quot;,&quot;attributes&quot; : { &quot;name&quot; : &quot;Floor6&quot;,&quot;value&quot; : &quot;13.641773&quot; } }   ,{ &quot;eventName&quot; : &quot;Collision&quot;,&quot;attributes&quot; : { &quot;name&quot; : &quot;Cube120&quot;,&quot;value&quot; : &quot;13.70808&quot; } }   ,{ &quot;eventName&quot; : &quot;Collision&quot;,&quot;attributes&quot; : { &quot;name&quot; : &quot;Cube120&quot;,&quot;value&quot; : &quot;13.70808&quot; } }   ,{ &quot;eventName&quot; : &quot;Collision&quot;,&quot;attributes&quot; : { &quot;name&quot; : &quot;Cube120&quot;,&quot;value&quot; : &quot;13.800197&quot; } }   ,{ &quot;eventName&quot; : &quot;Collision&quot;,&quot;attributes&quot; : { &quot;name&quot; : &quot;Cube120&quot;,&quot;value&quot; : &quot;13.800197&quot; } }   ,{ &quot;eventName&quot; : &quot;Collision&quot;,&quot;attributes&quot; : { &quot;name&quot; : &quot;Cube120&quot;,&quot;value&quot; : &quot;13.864681&quot; } }   ,{ &quot;eventName&quot; : &quot;Collision&quot;,&quot;attributes&quot; : { &quot;name&quot; : &quot;Cube120&quot;,&quot;value&quot; : &quot;13.864681&quot; } }   ,{ &quot;eventName&quot; : &quot;Collision&quot;,&quot;attributes&quot; : { &quot;name&quot; : &quot;Cube121&quot;,&quot;value&quot; : &quot;13.990599&quot; } }   ,{ &quot;eventName&quot; : &quot;Collision&quot;,&quot;attributes&quot; : { &quot;name&quot; : &quot;Ramp&quot;,&quot;value&quot; : &quot;29.66526&quot; } }   ,{ &quot;eventName&quot; : &quot;Collision&quot;,&quot;attributes&quot; : { &quot;name&quot; : &quot;Ramp&quot;,&quot;value&quot; : &quot;29.66526&quot; } }   ,{ &quot;eventName&quot; : &quot;Collision&quot;,&quot;attributes&quot; : { &quot;name&quot; : &quot;Ramp&quot;,&quot;value&quot; : &quot;29.704729&quot; } }   ,{ &quot;eventName&quot; : &quot;Collision&quot;,&quot;attributes&quot; : { &quot;name&quot; : &quot;Ramp&quot;,&quot;value&quot; : &quot;29.704729&quot; } }   ,{ &quot;eventName&quot; : &quot;Collision&quot;,&quot;attributes&quot; : { &quot;name&quot; : &quot;Floor4&quot;,&quot;value&quot; : &quot;36.455978&quot; } } ]    }  ]" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
         <RestClientRequest>
           <option name="biscuits">
             <list>
@@ -1506,10 +1613,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23385416" sideWeight="0.50584793" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23385416" sideWeight="0.49415204" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23385416" sideWeight="0.49415204" order="2" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32344213" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5377644" sideWeight="0.50208336" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1838,14 +1945,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/post_game.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2015_11_23_212223_create_event_attributes_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-10.0">
@@ -1932,6 +2031,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.37864077">
           <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/post_game.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6213592">
+          <caret line="33" column="11" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="11" />
           <folding />
         </state>
       </provider>
