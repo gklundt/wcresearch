@@ -11,6 +11,6 @@ class Game extends Model
     protected $fillable=['session_id','user_id'];
     public function events()
     {
-        return $this->hasMany('app\Event');
+        return $this->hasMany('App\Event');
     }
 }
