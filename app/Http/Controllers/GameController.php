@@ -70,11 +70,23 @@ class GameController extends Controller
 
             if(array_key_exists('attributes',$item)){
 
+$arr_attribs = $item['attributes'];
+foreach($arr_attribs as $arr_attrib){
+
                 $attributes = new EventAttribute();
-                $attributes->name = $item['attributes']['name'];
-                $attributes->value = $item['attributes']['value'];
+                $attributes->name = $arr_attrib['name'];
+                $attributes->value = $arr_attrib['value'];
 
                 $event->event_attributes()->save($attributes);
+
+}
+
+
+//                $attributes = new EventAttribute();
+//                $attributes->name = $item['attributes']['name'];
+//                $attributes->value = $item['attributes']['value'];
+//
+//                $event->event_attributes()->save($attributes);
 
             }
         }
