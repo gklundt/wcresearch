@@ -24,10 +24,10 @@ class GameController extends Controller
         $games = Game::all();
 
         foreach ($games as $game) {
-            foreach ($game->events as $event){
-                foreach($event->event_attributes as $attribute){
+            foreach ($game->events as $event) {
+                foreach ($event->event_attributes as $attribute) {
                     $format = "%s - %s - %s - %s <br>";
-                    echo sprintf($format, $game->session_id,$event->event_name,$attribute->name,$attribute->value);
+                    echo sprintf($format, $game->session_id, $event->event_name, $attribute->name, $attribute->value);
                 }
             }
         }
@@ -54,8 +54,8 @@ class GameController extends Controller
         $obj = $request->json();
         $game_data = $obj->all()[0];
         $game = new Game();
-        $game->session_id= $game_data['sessionId'];
-        $game->user_id= $game_data['userId'];
+        $game->session_id = $game_data['sessionId'];
+        $game->user_id = $game_data['userId'];
         $game->save();
 
         $events = $game_data['events'];
@@ -68,18 +68,18 @@ class GameController extends Controller
 
             $game->events()->save($event);
 
-            if(array_key_exists('attributes',$item)){
+            if (array_key_exists('attributes', $item)) {
 
-$arr_attribs = $item['attributes'];
-foreach($arr_attribs as $arr_attrib){
+                $arr_attribs = $item['attributes'];
+                foreach ($arr_attribs as $arr_attrib) {
 
-                $attributes = new EventAttribute();
-                $attributes->name = $arr_attrib['name'];
-                $attributes->value = $arr_attrib['value'];
+                    $attributes = new EventAttribute();
+                    $attributes->name = $arr_attrib['name'];
+                    $attributes->value = $arr_attrib['value'];
 
-                $event->event_attributes()->save($attributes);
+                    $event->event_attributes()->save($attributes);
 
-}
+                }
 
 
 //                $attributes = new EventAttribute();
