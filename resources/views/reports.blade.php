@@ -39,39 +39,28 @@
 <div class="container">
     <div class="content">
 
-        <div class="container">
-            <div class="title">User</div>
-        </div>
-        <div class="container">
-            <div class="title">Event</div>
-        </div>
-        <div class="container">
-            <div class="title">Count</div>
-        </div>
-        <div class="container">
-            <div class="title">Avg</div>
-        </div>
-        <div class="container">
-            <div class="title">Min</div>
-        </div>
-        <div class="container">
-            <div class="title">Max</div>
-        </div>
-        <br>
-        <?php
-        foreach ($data as $item) {
-
-            echo "<div class=\"container\">" . $item->user_id . "</div>";
-            echo "<div class=\"container\">" . $item->event_name . "</div>";
-            echo "<div class=\"container\">" . $item->count . "</div>";
-            echo "<div class=\"container\">" . $item->avg_duration . "</div>";
-            echo "<div class=\"container\">" . $item->min_duration . "</div>";
-            echo "<div class=\"container\">" . $item->max_duration . "</div>";
-            echo "<br>";
-
-        }
-
-        ?>
+        <table>
+            <tr>
+                <td class="title">User</td>
+                <td class="title">Event</td>
+                <td class="title">Count</td>
+                <td class="title">Avg</td>
+                <td class="title">Min</td>
+                <td class="title">Max</td>
+            </tr>
+            <?php
+            foreach ($data as $item) {
+                echo "<tr>";
+                echo "<td class='container'>" . $item->user_id . "</td>";
+                echo "<td class='container'>" . $item->event_name . "</td>";
+                echo "<td class='container'>" . $item->count . "</td>";
+                echo "<td class='container'>" . $item->avg_duration . "</td>";
+                echo "<td class='container'>" . $item->min_duration . "</td>";
+                echo "<td class='container'>" . $item->max_duration . "</td>";
+                echo "</tr>";
+            }
+            ?>
+        </table>
     </div>
     <!--<?php dump($data);?>-->
 </div>
