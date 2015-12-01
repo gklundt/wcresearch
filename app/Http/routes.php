@@ -18,3 +18,5 @@ Route::get('/', function () {
 Route::resource('game','GameController');
 
 Route::resource('phpinfo','phpinfocontroller');
+
+Route::resource('reports','Reports\ReportController');
